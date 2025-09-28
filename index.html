@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="intro-text">
+    <h2>Turn your to-do into done✔️</h2>
+    <h2>Lets get everything together✨ !!</h2>
+    
+  </div>
+  <div class="container">
+    <h1>Task Manager 🖊️📋</h1>
+
+    <div class="input-box">
+      <input type="text" id="taskInput" placeholder="Enter a new task...">
+      <button id="addBtn">Add Task</button>
+    </div>
+
+    <!-- Calendar below the input box -->
+    <div class="calendar-box">
+      <label for="taskDate">Select Date:</label>
+      <input type="date" id="taskDate">
+    </div>  
+    <hr>
+  </hr>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
